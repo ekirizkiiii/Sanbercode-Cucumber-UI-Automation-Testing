@@ -1,0 +1,27 @@
+{
+  "name": "sanbercode-cucumber-ui-automation-testing",
+  "version": "1.0.0",
+  "description": "Sanbercode - Tugas Pekanan 6 Cucumber UIAutomation Testing using Webdriverio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "Eki Rizki Pratama Putra",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.21.0",
+    "@wdio/cli": "^8.3.11",
+    "@wdio/cucumber-framework": "^8.3.0",
+    "@wdio/local-runner": "^8.3.11",
+    "@wdio/spec-reporter": "^8.3.0",
+    "chromedriver": "^110.0.0",
+    "wdio-chromedriver-service": "^8.1.1"
+  },
+  "dependencies": {
+    "chai": "^4.3.7"
+  }
+}
